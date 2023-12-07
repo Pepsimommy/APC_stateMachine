@@ -1,0 +1,3 @@
+/mnt/d/second/Advanced Programming Concepts/project/cmake-build-wsl-clang/CMakeFiles/project.dir
+/mnt/d/second/Advanced Programming Concepts/project/cmake-build-wsl-clang/CMakeFiles/edit_cache.dir
+/mnt/d/second/Advanced Programming Concepts/project/cmake-build-wsl-clang/CMakeFiles/rebuild_cache.dir

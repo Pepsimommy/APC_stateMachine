@@ -1,0 +1,15 @@
+//
+// Created by Gusita on 12/7/2023.
+//
+
+#ifndef PROJECT_VENDINGMACHINE_STATES_H
+#define PROJECT_VENDINGMACHINE_STATES_H
+
+enum class VendingMachine_states{
+    IDLE,
+    ACCEPTING_MONEY,
+    PROCESSING_SELECTION,
+    DISPENSING,
+    REFUNDING_MONEY
+};
+#endif //PROJECT_VENDINGMACHINE_STATES_H

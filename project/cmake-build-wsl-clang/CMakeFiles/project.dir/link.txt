@@ -1,0 +1,1 @@
+/usr/bin/clang++ -g CMakeFiles/project.dir/main.cpp.o CMakeFiles/project.dir/src/VendingMachine.cpp.o -o project 
