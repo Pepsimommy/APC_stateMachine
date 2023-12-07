@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/mnt/d/second/Advanced Programming Concepts/project/main.cpp" "CMakeFiles/project.dir/main.cpp.o" "gcc" "CMakeFiles/project.dir/main.cpp.o.d"
-  "/mnt/d/second/Advanced Programming Concepts/project/src/VendingMachine.cpp" "CMakeFiles/project.dir/src/VendingMachine.cpp.o" "gcc" "CMakeFiles/project.dir/src/VendingMachine.cpp.o.d"
+  "/mnt/e/univ-data/year2/q2/mamamea/APC_stateMachine/project/main.cpp" "CMakeFiles/project.dir/main.cpp.o" "gcc" "CMakeFiles/project.dir/main.cpp.o.d"
+  "/mnt/e/univ-data/year2/q2/mamamea/APC_stateMachine/project/src/VendingMachine.cpp" "CMakeFiles/project.dir/src/VendingMachine.cpp.o" "gcc" "CMakeFiles/project.dir/src/VendingMachine.cpp.o.d"
   )
 
 # Targets to which this target links.

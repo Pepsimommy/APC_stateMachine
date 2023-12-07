@@ -8,18 +8,18 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/mnt/d/second/Advanced Programming Concepts/project/cmake-build-wsl-gcc"/>
+				<Option working_dir="/mnt/e/univ-data/year2/q2/mamamea/APC_stateMachine/project/cmake-build-wsl-gcc"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/d/second/Advanced\ Programming\ Concepts/project/cmake-build-wsl-gcc/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/d/second/Advanced\ Programming\ Concepts/project/cmake-build-wsl-gcc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/d/second/Advanced\ Programming\ Concepts/project/cmake-build-wsl-gcc/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/d/second/Advanced\ Programming\ Concepts/project/cmake-build-wsl-gcc/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/mnt/e/univ-data/year2/q2/mamamea/APC_stateMachine/project/cmake-build-wsl-gcc/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/mnt/e/univ-data/year2/q2/mamamea/APC_stateMachine/project/cmake-build-wsl-gcc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/mnt/e/univ-data/year2/q2/mamamea/APC_stateMachine/project/cmake-build-wsl-gcc/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/mnt/e/univ-data/year2/q2/mamamea/APC_stateMachine/project/cmake-build-wsl-gcc/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="project">
-				<Option output="/mnt/d/second/Advanced Programming Concepts/project/cmake-build-wsl-gcc/project" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/mnt/d/second/Advanced Programming Concepts/project/cmake-build-wsl-gcc"/>
+				<Option output="/mnt/e/univ-data/year2/q2/mamamea/APC_stateMachine/project/cmake-build-wsl-gcc/project" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/e/univ-data/year2/q2/mamamea/APC_stateMachine/project/cmake-build-wsl-gcc"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -33,15 +33,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/d/second/Advanced\ Programming\ Concepts/project/cmake-build-wsl-gcc/Makefile&quot;  VERBOSE=1 project"/>
-					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/d/second/Advanced\ Programming\ Concepts/project/cmake-build-wsl-gcc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/d/second/Advanced\ Programming\ Concepts/project/cmake-build-wsl-gcc/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/d/second/Advanced\ Programming\ Concepts/project/cmake-build-wsl-gcc/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/mnt/e/univ-data/year2/q2/mamamea/APC_stateMachine/project/cmake-build-wsl-gcc/Makefile&quot;  VERBOSE=1 project"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/mnt/e/univ-data/year2/q2/mamamea/APC_stateMachine/project/cmake-build-wsl-gcc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/mnt/e/univ-data/year2/q2/mamamea/APC_stateMachine/project/cmake-build-wsl-gcc/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/mnt/e/univ-data/year2/q2/mamamea/APC_stateMachine/project/cmake-build-wsl-gcc/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="project/fast">
-				<Option output="/mnt/d/second/Advanced Programming Concepts/project/cmake-build-wsl-gcc/project" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/mnt/d/second/Advanced Programming Concepts/project/cmake-build-wsl-gcc"/>
+				<Option output="/mnt/e/univ-data/year2/q2/mamamea/APC_stateMachine/project/cmake-build-wsl-gcc/project" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/e/univ-data/year2/q2/mamamea/APC_stateMachine/project/cmake-build-wsl-gcc"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -55,52 +55,52 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/d/second/Advanced\ Programming\ Concepts/project/cmake-build-wsl-gcc/Makefile&quot;  VERBOSE=1 project/fast"/>
-					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/d/second/Advanced\ Programming\ Concepts/project/cmake-build-wsl-gcc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/d/second/Advanced\ Programming\ Concepts/project/cmake-build-wsl-gcc/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/d/second/Advanced\ Programming\ Concepts/project/cmake-build-wsl-gcc/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/mnt/e/univ-data/year2/q2/mamamea/APC_stateMachine/project/cmake-build-wsl-gcc/Makefile&quot;  VERBOSE=1 project/fast"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/mnt/e/univ-data/year2/q2/mamamea/APC_stateMachine/project/cmake-build-wsl-gcc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/mnt/e/univ-data/year2/q2/mamamea/APC_stateMachine/project/cmake-build-wsl-gcc/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/mnt/e/univ-data/year2/q2/mamamea/APC_stateMachine/project/cmake-build-wsl-gcc/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/mnt/d/second/Advanced Programming Concepts/project/cmake-build-wsl-gcc"/>
+				<Option working_dir="/mnt/e/univ-data/year2/q2/mamamea/APC_stateMachine/project/cmake-build-wsl-gcc"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/d/second/Advanced\ Programming\ Concepts/project/cmake-build-wsl-gcc/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/d/second/Advanced\ Programming\ Concepts/project/cmake-build-wsl-gcc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/d/second/Advanced\ Programming\ Concepts/project/cmake-build-wsl-gcc/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/d/second/Advanced\ Programming\ Concepts/project/cmake-build-wsl-gcc/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/mnt/e/univ-data/year2/q2/mamamea/APC_stateMachine/project/cmake-build-wsl-gcc/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/mnt/e/univ-data/year2/q2/mamamea/APC_stateMachine/project/cmake-build-wsl-gcc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/mnt/e/univ-data/year2/q2/mamamea/APC_stateMachine/project/cmake-build-wsl-gcc/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/mnt/e/univ-data/year2/q2/mamamea/APC_stateMachine/project/cmake-build-wsl-gcc/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/mnt/d/second/Advanced Programming Concepts/project/cmake-build-wsl-gcc"/>
+				<Option working_dir="/mnt/e/univ-data/year2/q2/mamamea/APC_stateMachine/project/cmake-build-wsl-gcc"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/d/second/Advanced\ Programming\ Concepts/project/cmake-build-wsl-gcc/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/d/second/Advanced\ Programming\ Concepts/project/cmake-build-wsl-gcc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/d/second/Advanced\ Programming\ Concepts/project/cmake-build-wsl-gcc/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/d/second/Advanced\ Programming\ Concepts/project/cmake-build-wsl-gcc/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/mnt/e/univ-data/year2/q2/mamamea/APC_stateMachine/project/cmake-build-wsl-gcc/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/mnt/e/univ-data/year2/q2/mamamea/APC_stateMachine/project/cmake-build-wsl-gcc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/mnt/e/univ-data/year2/q2/mamamea/APC_stateMachine/project/cmake-build-wsl-gcc/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/mnt/e/univ-data/year2/q2/mamamea/APC_stateMachine/project/cmake-build-wsl-gcc/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/mnt/d/second/Advanced Programming Concepts/project/include/VendingMachine.h">
+		<Unit filename="/mnt/e/univ-data/year2/q2/mamamea/APC_stateMachine/project/include/VendingMachine.h">
 			<Option target="project"/>
 		</Unit>
-		<Unit filename="/mnt/d/second/Advanced Programming Concepts/project/include/VendingMachine_events.h">
+		<Unit filename="/mnt/e/univ-data/year2/q2/mamamea/APC_stateMachine/project/include/VendingMachine_events.h">
 			<Option target="project"/>
 		</Unit>
-		<Unit filename="/mnt/d/second/Advanced Programming Concepts/project/include/VendingMachine_states.h">
+		<Unit filename="/mnt/e/univ-data/year2/q2/mamamea/APC_stateMachine/project/include/VendingMachine_states.h">
 			<Option target="project"/>
 		</Unit>
-		<Unit filename="/mnt/d/second/Advanced Programming Concepts/project/include/product.h">
+		<Unit filename="/mnt/e/univ-data/year2/q2/mamamea/APC_stateMachine/project/include/product.h">
 			<Option target="project"/>
 		</Unit>
-		<Unit filename="/mnt/d/second/Advanced Programming Concepts/project/main.cpp">
+		<Unit filename="/mnt/e/univ-data/year2/q2/mamamea/APC_stateMachine/project/main.cpp">
 			<Option target="project"/>
 		</Unit>
-		<Unit filename="/mnt/d/second/Advanced Programming Concepts/project/src/VendingMachine.cpp">
+		<Unit filename="/mnt/e/univ-data/year2/q2/mamamea/APC_stateMachine/project/src/VendingMachine.cpp">
 			<Option target="project"/>
 		</Unit>
-		<Unit filename="/mnt/d/second/Advanced Programming Concepts/project/CMakeLists.txt">
+		<Unit filename="/mnt/e/univ-data/year2/q2/mamamea/APC_stateMachine/project/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

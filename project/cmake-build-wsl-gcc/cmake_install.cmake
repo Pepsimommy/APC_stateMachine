@@ -1,4 +1,4 @@
-# Install script for directory: /mnt/d/second/Advanced Programming Concepts/project
+# Install script for directory: /mnt/e/univ-data/year2/q2/mamamea/APC_stateMachine/project
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/mnt/d/second/Advanced Programming Concepts/project/cmake-build-wsl-gcc/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/mnt/e/univ-data/year2/q2/mamamea/APC_stateMachine/project/cmake-build-wsl-gcc/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
