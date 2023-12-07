@@ -95,7 +95,7 @@ void project::VendingMachine<T>::receiving_money(const T& productCode){
      }
 
      std::cout<<"Amount received is sufficient.Proceeding to dispensing.\n";
-     
+
 }
 
 
