@@ -24,6 +24,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/mnt/e/univ-data/year2/q2/mamamea/APC_stateMachine/project/include"/>
 					<Add directory="/usr/include/c++/12"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/12"/>
 					<Add directory="/usr/include/c++/12/backward"/>
@@ -46,6 +47,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/mnt/e/univ-data/year2/q2/mamamea/APC_stateMachine/project/include"/>
 					<Add directory="/usr/include/c++/12"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/12"/>
 					<Add directory="/usr/include/c++/12/backward"/>

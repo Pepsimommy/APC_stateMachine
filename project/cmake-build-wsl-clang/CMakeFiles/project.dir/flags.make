@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/clang++
 CXX_DEFINES = 
 
-CXX_INCLUDES = 
+CXX_INCLUDES = -I/mnt/e/univ-data/year2/q2/mamamea/APC_stateMachine/project/include
 
 CXX_FLAGS = -g -std=gnu++2b
 

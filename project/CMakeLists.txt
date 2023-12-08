@@ -3,6 +3,8 @@ project(project)
 
 set(CMAKE_CXX_STANDARD 23)
 
+include_directories(include)
+
 add_executable(project main.cpp
         src/VendingMachine.cpp
         include/VendingMachine.h

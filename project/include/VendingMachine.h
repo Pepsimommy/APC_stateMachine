@@ -29,21 +29,23 @@ namespace project {
 
         void event_handler(VendingMachine_events event);
 
-        void add_product(const product<T> &p);
+        void add_product( product<T> &p);
 
-        void update_product(const T &productCode, double newPrice, int newStock);
+        void update_product( T &productCode, double newPrice, int newStock);
+
+        void idle();
+
 
 
     private:
         std::vector<product<T>> products;
 
-        void idle();
 
-        void receiving_money(const T &productCode);
+        void receiving_money( T &productCode);
 
-        void processing_selection(const T &productCode);
+        void processing_selection( T &productCode);
 
-        void dispensing(const T &productCode);
+        void dispensing( T &productCode);
 
         void refund(double amount);
 
@@ -51,9 +53,9 @@ namespace project {
 
         void stock_handler();
 
-        bool is_productInStock(const T &productCode);
+        bool is_productInStock( T &productCode);
 
-        bool is_productCodeValid(const T &productCode);
+        bool is_productCodeValid( T &productCode);
 
     };
 }

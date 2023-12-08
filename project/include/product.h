@@ -15,7 +15,7 @@ public:
     T id;
     std::string name;
     double price;
-    int stock;
+    mutable int stock;
 
     //constructor
     product(T _id, const std::string& _name, double _price, int _stock): id(_id), name(_name), price(_price), stock(_stock) {}

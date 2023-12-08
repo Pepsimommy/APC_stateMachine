@@ -24,6 +24,7 @@
 				<Option type="1"/>
 				<Option compiler="clang"/>
 				<Compiler>
+					<Add directory="/mnt/e/univ-data/year2/q2/mamamea/APC_stateMachine/project/include"/>
 					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12"/>
 					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/x86_64-linux-gnu/c++/12"/>
 					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/backward"/>
@@ -46,6 +47,7 @@
 				<Option type="1"/>
 				<Option compiler="clang"/>
 				<Compiler>
+					<Add directory="/mnt/e/univ-data/year2/q2/mamamea/APC_stateMachine/project/include"/>
 					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12"/>
 					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/x86_64-linux-gnu/c++/12"/>
 					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/backward"/>
