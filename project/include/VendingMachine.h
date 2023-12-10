@@ -18,6 +18,7 @@ namespace project {
 
     template<typename T>
     class VendingMachine {
+
     public:
         VendingMachine_states currentState;
 
@@ -27,19 +28,22 @@ namespace project {
         //destructor
         ~VendingMachine() = default;
 
-        void event_handler(VendingMachine_events event);
+    //    void event_handler(VendingMachine_events event);
 
         void add_product( product<T> &p);
 
         void update_product( T &productCode, double newPrice, int newStock);
 
+        void display_product_information(const T &productCode);
+
+        void display_instructions();
+
+        void display_menu();
+
         void idle();
-
-
 
     private:
         std::vector<product<T>> products;
-
 
         void receiving_money( T &productCode);
 
@@ -48,10 +52,6 @@ namespace project {
         void dispensing( T &productCode);
 
         void refund(double amount);
-
-        void start_timer(std::chrono::seconds duration);
-
-        void stock_handler();
 
         bool is_productInStock( T &productCode);
 

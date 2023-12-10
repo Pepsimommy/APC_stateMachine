@@ -12,6 +12,7 @@
 template <typename T>
 class product{
 public:
+
     T id;
     std::string name;
     double price;
